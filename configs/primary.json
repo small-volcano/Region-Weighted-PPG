@@ -1,0 +1,16 @@
+{
+  "architecture": "lightweight_cnn_32_64_128",
+  "loss": "normalized_weighted_smooth_l1",
+  "region": "union",
+  "sbp_threshold_mmhg": 140.0,
+  "dbp_threshold_mmhg": 90.0,
+  "priority_weight": 5.0,
+  "epochs": 5,
+  "batch_size": 1024,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "seed": 42,
+  "ppg_channel": 1,
+  "sampling_rate_hz": 125,
+  "samples_per_window": 1250
+}
